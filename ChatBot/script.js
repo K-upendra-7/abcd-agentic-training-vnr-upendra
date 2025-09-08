@@ -29,7 +29,7 @@ function addMessage(message, sender) {
 
 
 async function getBotReply(userInput, retries = 3) {
-    const apiKey = 'AIzaSyAdMM6vt5ATICGk8qGpdJYM0gwogj9Y0VA';
+    const apiKey = 'YOUR_API';
     const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
     const payload = {
