@@ -1,6 +1,7 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eceff1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,55 +11,109 @@ body {
 
 .chat-container {
     width: 400px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    max-width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    animation: fadeIn 0.5s ease;
 }
 
+/* Header */
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Chat Box */
 .chat-box {
     flex-grow: 1;
     padding: 20px;
     overflow-y: auto;
-    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
 }
 
 .chat-message {
-    margin-bottom: 15px;
+    max-width: 70%;
+    padding: 12px 16px;
+    border-radius: 20px;
+    word-wrap: break-word;
 }
 
 .chat-message.user {
-    text-align: right;
-    color: blue;
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
 }
 
 .chat-message.bot {
-    text-align: left;
-    color: green;
+    background-color: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
 }
 
+/* Input Form */
 .chat-form {
     display: flex;
     border-top: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 10px;
 }
 
 .chat-form input {
     flex-grow: 1;
-    border: none;
-    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 15px;
     font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.chat-form input:focus {
+    border-color: #007bff;
 }
 
 .chat-form button {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 0 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .chat-form button:hover {
     background-color: #0056b3;
+}
+
+/* Footer */
+.chat-footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #777;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
