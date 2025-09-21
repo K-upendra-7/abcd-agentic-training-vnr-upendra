@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Agentic AI Training – Learning Journal
 
 This repository is my personal record of learning from the **Agentic AI Training Program**.  
@@ -73,8 +72,3 @@ Every session entry will include the **date, topics covered, learnings, and my h
 - **Practice Work:**  
   - [ ] To be added  
 
-
-
-=======
-# abcd-agentic-training-vnr-upendra
->>>>>>> d42772b26e1069a179133cda9890ff792a4baf0d
