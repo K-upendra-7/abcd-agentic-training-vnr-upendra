@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Agentic AI Training – Learning Journal
 
 This repository is my personal record of learning from the **Agentic AI Training Program**.  
