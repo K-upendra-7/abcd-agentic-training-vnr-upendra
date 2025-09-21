@@ -23,7 +23,7 @@ function addMessage(message, sender) {
     messageElem.textContent = message;
     chatBox.appendChild(messageElem);
 
-    // Smooth scrolling to bottom
+    
     chatBox.scrollTo({ top: chatBox.scrollHeight, behavior: 'smooth' });
 }
 
@@ -48,7 +48,7 @@ async function getBotReply(userInput, retries = 3) {
         if (!response.ok) {
             if (response.status === 503 && retries > 0) {
                 console.warn('Model overloaded. Retrying in 2 seconds...');
-                await new Promise(res => setTimeout(res, 2000));  // Wait 2 seconds
+                await new Promise(res => setTimeout(res, 2000)); 
                 return getBotReply(userInput, retries - 1);
             }
 

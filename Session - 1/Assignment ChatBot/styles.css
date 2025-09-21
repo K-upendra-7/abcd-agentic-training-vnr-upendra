@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #eceff1;
@@ -21,7 +21,7 @@ body {
     animation: fadeIn 0.5s ease;
 }
 
-/* Header */
+
 .chat-header {
     background-color: #007bff;
     color: white;
@@ -31,7 +31,6 @@ body {
     font-weight: bold;
 }
 
-/* Chat Box */
 .chat-box {
     flex-grow: 1;
     padding: 20px;
@@ -64,7 +63,6 @@ body {
     border-bottom-left-radius: 0;
 }
 
-/* Input Form */
 .chat-form {
     display: flex;
     border-top: 1px solid #ddd;
@@ -102,7 +100,6 @@ body {
     background-color: #0056b3;
 }
 
-/* Footer */
 .chat-footer {
     text-align: center;
     padding: 10px;
@@ -112,7 +109,7 @@ body {
     border-top: 1px solid #ddd;
 }
 
-/* Animation */
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
