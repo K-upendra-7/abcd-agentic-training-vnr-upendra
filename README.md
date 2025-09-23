@@ -49,10 +49,10 @@ Every session entry will include the **date, topics covered, learnings, and my h
 #### **Part 1: GitHub & Version Control**
 * **Core Concepts:** A deep dive into essential Git commands and GitHub features including:
     * `push`, `pull`, and `pull request`
-    * [cite_start]`branches` (local & remote) 
-    * [cite_start]Resolving `merge conflicts` 
-    * [cite_start]Managing `issues` for tracking tasks 
-* [cite_start]**Practical Labs:** We completed three hands-on labs to solidify these concepts.
+    * `branches` (local & remote) 
+    * Resolving `merge conflicts` 
+    * Managing `issues` for tracking tasks 
+* **Practical Labs:** We completed three hands-on labs to solidify these concepts.
     * [Lab 1: Introduction to GitHub](https://github.com/skills/introduction-to-github)
     * [Lab 2: Reviewing Pull Requests](https://github.com/skills/review-pull-requests)
     * [Lab 3: Resolving Merge Conflicts](https://github.com/skills/resolve-merge-conflicts)
@@ -64,6 +64,56 @@ Every session entry will include the **date, topics covered, learnings, and my h
     * A brief introduction to neural networks was also covered.
 * **Model Deployment:** Learned about storing trained ML models as `.pkl` files and using them in full-stack applications.
 * **APIs in Action:** A live demonstration using Chrome DevTools showed how to inspect API requests and responses, including methods, headers, and payloads.
+
+## Session 2: Cloud Platforms, APIs, and n8n Automation
+* **Date:** *10th September 2025*
+
+### Topics Covered
+The session focused on the practical aspects of cloud platforms, API integrations, and workflow automation using n8n. The following key concepts were introduced:
+* API Keys & OAuth 
+* Authentication vs. Authorization 
+* Cloud Platforms & Third-Party Integrations 
+* Docker for containerized workflows 
+
+### Practical Work & Key Achievements
+* **Google Cloud Integration:**
+    * Successfully created a new project on Google Cloud.
+    * Enabled the Email API.
+    * Connected the Gmail API to an n8n workflow.
+
+* **Telegram Bot Integration:**
+    * Created a new Telegram bot and generated the necessary API keys.
+    * Integrated the Telegram APIs with an n8n workflow.
+
+* **Troubleshooting & Testing:**
+    * Individually tested each node within the n8n workflows to ensure full functionality.
+    * Collaboratively resolved Docker-related challenges and other integration issues that arose during setup.
+
+## Session 3: Agentic AI, Transformers, and Advanced n8n Workflows
+* **Date:** *10th September 2025*
+  
+### Topics Covered
+This session advanced both practical integration skills and the theoretical understanding of AI concepts.
+
+* **T-Shaped Developer & Agentic AI:**
+    * Introduced the T-shaped developer model, which encourages broad general knowledge with a deep specialization in Agentic AI.
+    * Studied core Agentic AI concepts including frameworks, hallucination management, and vectorization.
+    * Mapped student skills against the growth path toward becoming an Agentic AI developer.
+
+* **Transformer Architecture Concepts:**
+    * **Tokenization:** Converting text into machine-readable tokens.
+    * **Embedding:** Mapping the tokens into a numerical vector space.
+    * **Attention Mechanism:** Assigning weight to tokens that are most relevant in a given context.
+    * **Transformer Layers:** Using multiple stacked blocks to process the embeddings.
+    * **Unembedding:** Converting the final processed vectors back into output text.
+
+### Practical Work
+The hands-on portion of the session involved building and deploying a real-time AI workflow.
+
+* An n8n workflow was created to integrate Gmail, the Gemini AI Chat Model, and Telegram.
+* Explored the essential components that AI agents rely on: input, chat models, memory, and tools.
+* Conducted node-by-node testing to validate the functionality of the entire workflow.
+* The workflow was deployed live and tested in real-time scenarios.
 
 
 
