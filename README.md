@@ -48,22 +48,22 @@ Every session entry will include the **date, topics covered, learnings, and my h
 ### Topics Covered
 #### **Part 1: GitHub & Version Control**
 * **Core Concepts:** A deep dive into essential Git commands and GitHub features including:
-    * [cite_start]`push`, `pull`, and `pull request` [cite: 7]
-    * [cite_start]`branches` (local & remote) [cite: 7]
-    * [cite_start]Resolving `merge conflicts` [cite: 7]
-    * [cite_start]Managing `issues` for tracking tasks [cite: 7]
-* [cite_start]**Practical Labs:** We completed three hands-on labs to solidify these concepts[cite: 8].
-    * [cite_start][Lab 1: Introduction to GitHub](https://github.com/skills/introduction-to-github) [cite: 9]
-    * [cite_start][Lab 2: Reviewing Pull Requests](https://github.com/skills/review-pull-requests) [cite: 10]
-    * [cite_start][Lab 3: Resolving Merge Conflicts](https://github.com/skills/resolve-merge-conflicts) [cite: 11]
-* [cite_start]**Collaboration:** Discussed strategies for effective teamwork on a shared codebase using GitHub[cite: 12].
+    * `push`, `pull`, and `pull request`
+    * [cite_start]`branches` (local & remote) 
+    * [cite_start]Resolving `merge conflicts` 
+    * [cite_start]Managing `issues` for tracking tasks 
+* [cite_start]**Practical Labs:** We completed three hands-on labs to solidify these concepts.
+    * [Lab 1: Introduction to GitHub](https://github.com/skills/introduction-to-github)
+    * [Lab 2: Reviewing Pull Requests](https://github.com/skills/review-pull-requests)
+    * [Lab 3: Resolving Merge Conflicts](https://github.com/skills/resolve-merge-conflicts)
+* **Collaboration:** Discussed strategies for effective teamwork on a shared codebase using GitHub.
 
 #### **Part 2: Machine Learning & API Integration**
-* [cite_start]**ML Fundamentals:** An overview of the machine learning lifecycle was provided[cite: 34].
-    * [cite_start]Topics included data segregation (training/testing), prediction, algorithms, model creation, and model tuning[cite: 35].
-    * [cite_start]A brief introduction to neural networks was also covered[cite: 36].
-* [cite_start]**Model Deployment:** Learned about storing trained ML models as `.pkl` files and using them in full-stack applications[cite: 40, 41].
-* [cite_start]**APIs in Action:** A live demonstration using Chrome DevTools showed how to inspect API requests and responses, including methods, headers, and payloads[cite: 42].
+* **ML Fundamentals:** An overview of the machine learning lifecycle was provided.
+    * Topics included data segregation (training/testing), prediction, algorithms, model creation, and model tuning.
+    * A brief introduction to neural networks was also covered.
+* **Model Deployment:** Learned about storing trained ML models as `.pkl` files and using them in full-stack applications.
+* **APIs in Action:** A live demonstration using Chrome DevTools showed how to inspect API requests and responses, including methods, headers, and payloads.
 
 
 
