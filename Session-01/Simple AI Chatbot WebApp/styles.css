@@ -1,0 +1,132 @@
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: radial-gradient(circle at 60% 40%, #f6e6fb 0%, #e6ebfb 45%, #eceff1 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
+        }
+        .main-card {
+            background: #fff;
+            box-shadow: 0 8px 32px rgba(120,80,180,0.13);
+            border-radius: 24px;
+            width: 480px;
+            max-width: 94vw;
+            min-height: 480px;
+            padding: 40px 32px 32px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            animation: fadeIn 0.7s;
+        }
+        .ai-icon {
+            font-size: 2.3em;
+            color: #9F6FFF;
+            margin-bottom: 22px;
+        }
+        .main-title {
+            font-size: 1.35em;
+            font-weight: 500;
+            color: #4E3755;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+        .suggestions {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .suggestion-btn {
+            background: #f6f1fa;
+            color: #735295;
+            border: none;
+            border-radius: 16px;
+            padding: 10px 18px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(160,120,200,0.10);
+            transition: background 0.19s;
+        }
+        .suggestion-btn:hover, .suggestion-btn:focus {
+            background: #ece2f7;
+        }
+        .chat-log {
+            width: 100%;
+            min-height: 120px;
+            max-height: 220px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 26px;
+            scroll-behavior: smooth;
+        }
+        .chat-message {
+            padding: 10px 15px;
+            border-radius: 18px;
+            max-width: 70%;
+            word-wrap: break-word;
+            font-size: 1em;
+        }
+        .chat-message.user {
+            background: linear-gradient(90deg,#9F6FFF 60%,#68a6fc 100%);
+            color: #fff;
+            align-self: flex-end;
+            border-bottom-right-radius: 0;
+            box-shadow: 1px 2px 14px rgba(140,120,220,0.08);
+        }
+        .chat-message.bot {
+            background: #f4f5fb;
+            color: #6b5575;
+            align-self: flex-start;
+            border-bottom-left-radius: 0;
+            box-shadow: 1px 2px 14px rgba(220,200,250,0.09);
+        }
+        .form-row {
+            width: 98%;
+            display: flex;
+            align-items: center;
+            border-radius: 18px;
+            background: #f8fafd;
+            padding: 6px 8px;
+            box-shadow: 0 2px 6px rgba(130,110,180,0.04);
+        }
+        .form-row input {
+            flex: 1;
+            border: none;
+            background: transparent;
+            font-size: 1.12em;
+            color: #716aa8;
+            padding: 12px 0px 12px 15px;
+            border-radius: 16px;
+            outline: none;
+        }
+        .form-row button {
+            background: linear-gradient(95deg,#9F6FFF 70%,#68a6fc 100%);
+            color: #fff;
+            border: none;
+            border-radius: 18px;
+            padding: 9px 25px;
+            font-size: 1em;
+            margin-left: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.15s;
+        }
+        .form-row button:hover {
+            transform: translateY(-2px) scale(1.05);
+        }
+        .footer {
+            text-align: center;
+            color: #b2b3cc;
+            font-size: 0.97em;
+            margin-top: 18px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px);}
+            to { opacity: 1; transform: translateY(0);}
+        }

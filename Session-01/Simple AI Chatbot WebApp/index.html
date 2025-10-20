@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Our AI Anything</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-card" id="mainCard">
+        <div class="ai-icon">✨</div>
+        <div class="main-title">Ask our AI anything</div>
+        <div class="suggestions">
+            <button class="suggestion-btn">What can I ask you to do?</button>
+            <button class="suggestion-btn">Which one of my projects is performing the best?</button>
+            <button class="suggestion-btn">What projects should I be concerned about right now?</button>
+        </div>
+        <div class="chat-log" id="chatLog"></div>
+        <form class="form-row" id="chatForm">
+            <input type="text" id="chatInput" placeholder="Ask me anything about your projects..." autocomplete="off" required>
+            <button type="submit">&#9658;</button>
+        </form>
+        <div class="footer">
+            © Upendra Chatbot
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
