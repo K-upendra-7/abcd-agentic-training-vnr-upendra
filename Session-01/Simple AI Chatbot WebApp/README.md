@@ -4,6 +4,7 @@ A lightweight and elegant **AI chatbot** web application built with **HTML, CSS,
 This chatbot does **not retain memory** — every response is based only on the latest user query.
 
 ---
+![alt text](image.png)
 
 ## ✨ Features
 
@@ -15,7 +16,6 @@ This chatbot does **not retain memory** — every response is based only on the 
 - **Stateless architecture** — no data or chat history is stored  
 
 ---
-
 ## 🛠 Tech Stack
 
 | Component | Description |
@@ -44,7 +44,7 @@ chatbot/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/simple-chatbot.git
+git clone https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-01/Simple%20AI%20Chatbot%20WebApp
 cd simple-chatbot
 ```
 
@@ -89,7 +89,7 @@ Example:
 ```
 /assets/screenshot.png
 ```
-
+![alt text](image-1.png)
 ---
 
 ## 🚧 Future Enhancements
@@ -102,22 +102,6 @@ Example:
 
 ---
 
-## ☁️ (Optional) Firebase Hosting Setup
-
-If you’re hosting this project with **Firebase**:
-
-1. Initialize Firebase in your project directory  
-   ```bash
-   firebase init hosting
-   ```
-2. Choose your Firebase project and set `public` as the folder containing `index.html`.
-3. Deploy your chatbot:  
-   ```bash
-   firebase deploy
-   ```
-4. Firebase will provide a public URL to access your hosted chatbot.
-
----
 
 ## 👨‍💻 Author
 
