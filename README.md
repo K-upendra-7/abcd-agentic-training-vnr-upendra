@@ -1,4 +1,4 @@
-# Agentic AI Training – Learning Journal
+# 🚀 Agentic AI Training – Learning Journal
 
 This repository is my personal record of learning from the **Agentic AI Training Program**.
 The purpose of this repo is to track my journey, capture key concepts, and document practical experiments that I work on during and after each session.
@@ -34,8 +34,6 @@ This section will help me stay prepared before each session.
 - [ ] Install any **libraries listed in the training materials**
 - [ ] Optional: Explore basic **LLM APIs** (OpenAI, Hugging Face, etc.)
 
-*(This checklist will be refined as new requirements are shared.)*
-
 ---
 
 ## 📔 Learning Journal
@@ -43,7 +41,7 @@ This section will help me stay prepared before each session.
 This section contains notes and reflections from each training session.
 Every session entry will include the **date, topics covered, learnings, and my hands-on practice notes**.
 
-## [Session 1: GitHub Integration, ML, and Full Stack]()
+## [Session 1: GitHub Integration, ML, and Full Stack](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-01)
 * **📅 Date:** 30th August 2025
 
 ### 📚Topics Covered:
@@ -66,7 +64,7 @@ Every session entry will include the **date, topics covered, learnings, and my h
   * **Model Deployment:** Learned about storing trained ML models as `.pkl` files and using them in full-stack applications.
   * **APIs in Action:** A live demonstration using Chrome DevTools showed how to inspect API requests and responses, including methods, headers, and payloads.
 
-## [Session 2: Cloud Platforms, APIs, and n8n Automation]()
+## [Session 2: Cloud Platforms, APIs, and n8n Automation](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-02%2603)
 * **📅 Date:** *10th September 2025*
 
 ### Topics Covered:
@@ -90,11 +88,10 @@ The session focused on the practical aspects of cloud platforms, API integration
   * Individually tested each node within the n8n workflows to ensure full functionality.
   * Collaboratively resolved Docker-related challenges and other integration issues that arose during setup.
 
-## [Session 3: Agentic AI, Transformers, and Advanced n8n Workflows]()
+## [Session 3: Agentic AI, Transformers, and Advanced n8n Workflows](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-02%2603)
 * **📅 Date:** *10th September 2025*
  
 ### 📚 Topics Covered:
-This session advanced both practical integration skills and the theoretical understanding of AI concepts.
 
 * **T-Shaped Developer & Agentic AI:** 
   * Introduced the T-shaped developer model, which encourages broad general knowledge with a deep specialization in Agentic AI.
@@ -102,11 +99,11 @@ This session advanced both practical integration skills and the theoretical unde
   * Mapped student skills against the growth path toward becoming an Agentic AI developer.
 
 * **Transformer Architecture Concepts:** 
-  * **Tokenization:** Converting text into machine-readable tokens.
-  * **Embedding:** Mapping the tokens into a numerical vector space.
-  * **Attention Mechanism:** Assigning weight to tokens that are most relevant in a given context.
-  * **Transformer Layers:** Using multiple stacked blocks to process the embeddings.
-  * **Unembedding:** Converting the final processed vectors back into output text.
+  * **Tokenization** 
+  * **Embedding** 
+  * **Attention Mechanism** 
+  * **Transformer Layers** 
+  * **Unembedding** 
 
 ### Practical Work:
 The hands-on portion of the session involved building and deploying a real-time AI workflow.
@@ -117,10 +114,10 @@ The hands-on portion of the session involved building and deploying a real-time 
   * The workflow was deployed live and tested in real-time scenarios.
 
 
-## [Session 4 & 5 – End-to-End Personalized LLM Pipeline]()
+## [Session 4 & 5 – End-to-End Personalized LLM Pipeline](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-04%2605)
 **📅 Date:** *11th October 2025*
 
-### Topics Covered:
+### 📚Topics Covered:
   *  Recap of n8n and introduction to Agentic AI workflow complexities.
   * Used Cursor IDE and UV package manager for environment setup.
   * Built workflows without frameworks using the OpenAI SDK.
@@ -149,10 +146,10 @@ The hands-on portion of the session involved building and deploying a real-time 
   * Demonstrate a real-world implementation using the personalized model.
 
 
-## [Session 6 & 7 – Agentic Frameworks, LangChain, and OpenAI Agents]()
+## [Session 6 & 7 – Agentic Frameworks, LangChain, and OpenAI Agents](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/tree/main/Session-06%2607)
 **📅 Date:** *18th October 2025* (Online Session)
 
-### Topics Covered:
+### 📚Topics Covered:
 * Recap: Using OpenAI SDK core (without framework).
 * **Morning Session:**
   * Implemented Agentic workflows using **OpenAI Agents SDK**.
