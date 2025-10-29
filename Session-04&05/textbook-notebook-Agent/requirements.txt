@@ -688,3 +688,33 @@ zipp==3.23.0
     # via importlib-metadata
 zstandard==0.23.0
     # via langsmith
+# Core dependencies
+gradio
+openai
+pydantic
+fpdf
+python-dotenv
+asyncio
+fitz  # for PyMuPDF (PDF reading)
+
+# LangChain and related packages
+langchain
+langchain-text-splitters
+
+# Optional: if you use PDFs and vector stores later
+tiktoken
+faiss-cpu
+# Core dependencies
+gradio>=4.37.2
+fastapi>=0.115.2
+uvicorn>=0.30.6
+anyio>=4.4.0
+
+# AI + PDF processing
+langchain>=0.3.5
+langchain-text-splitters>=0.3.0
+pydantic>=2.9.0
+fpdf
+python-dotenv
+fitz  # PyMuPDF
+openai

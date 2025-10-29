@@ -1,74 +1,30 @@
-# Agentic AI Training – Learning Journal
+## Session 4 & 5 – End-to-End Personalized LLM Pipeline
+**📅 Date:** *11th October 2025*
 
-This repository is my personal record of learning from the **Agentic AI Training Program**.  
-The purpose of this repo is to track my journey, capture key concepts, and document practical experiments that I work on during and after each session.  
+### 📚Topics Covered:
+  *  Recap of n8n and introduction to Agentic AI workflow complexities.
+  * Used Cursor IDE and UV package manager for environment setup.
+  * Built workflows without frameworks using the OpenAI SDK.
+  * Discussed five Agentic AI workflow design patterns:
+    1. Prompt Chaining
+    2. Routing
+    3. Parallelization
+    4. Orchestrator–Worker
+    5. Evaluator–Optimizer
+  * Created personalized LLMs using LinkedIn profiles and personal summaries.
+  * Integrated multiple LLMs (OpenAI, Gemini, Anthropic, Groq, DeepSeek, Ollama).
+  * Added tools for logging unknown queries and sending real-time notifications with Pushover.
 
-By maintaining this log, I can reflect on my progress, revise concepts whenever needed, and build a solid foundation in **LLMs, GenAI, and Agentic AI**.
+### My Learnings: 
+  * Understood how to personalize models using real user data.
+  * Learned to integrate and switch between multiple LLM providers.
+  * Learned to build and optimize workflows with Evaluator–Optimizer patterns.
+  * Developed a complete personalized LLM pipeline with notifications and resource integration.
 
----
-
-## About the Training
-
-- **Kickoff Date:** 30th (Month, Year)  
-- **Core Focus Areas:**  
-  - Fundamentals of Large Language Models (LLMs)  
-  - Generative AI techniques and use-cases  
-  - Agentic AI – AI Agents, workflows, and tool integration  
-  - Applications in real-world industry settings  
-- **Training Materials:** [Training Repository](https://github.com/TEJAPS/agentic-training)  
-
----
-
-## Prerequisites & Prep Checklist
-
-This section will help me stay prepared before each session.  
-(Items will be updated as more details are shared during the program.)
-
-- [ ] Install **Python 3.10+**  
-- [ ] Set up a **virtual environment** (e.g., `venv` or `conda`)  
-- [ ] Install **Jupyter Notebook / JupyterLab**  
-- [ ] Install **PyTorch / TensorFlow** (depending on training needs)  
-- [ ] Create a **GitHub account & repo** (this repository)  
-- [ ] Familiarize with **Git basics** (clone, commit, push)  
-- [ ] Review **fundamentals of AI/ML** (ML models, transformers, embeddings)  
-- [ ] Install any **libraries listed in the training materials**  
-- [ ] Optional: Explore basic **LLM APIs** (OpenAI, Hugging Face, etc.)  
-
-*(This checklist will be refined as new requirements are shared.)*
-
----
-
-## Learning Journal
-
-This section contains notes and reflections from each training session.  
-Every session entry will include the **date, topics covered, learnings, and my hands-on practice notes**.  
-
-### Session 1 – Kickoff & Introduction to Agentic AI
-- **Date:** 30th (Month, Year)  
-- **Topics Covered:**  
-  - Overview of training structure and expectations  
-  - Introduction to Agentic AI  
-  - How LLMs fit into industry use-cases  
-- **My Learnings:**  
-  - [ ] To be updated after session  
-- **Practice Work:**  
-  - [ ] To be added  
-
-### Session 2 – Topic Name
-- **Date:** TBD  
-- **Topics Covered:**  
-  - [ ] To be updated  
-- **My Learnings:**  
-  - [ ] To be updated  
-- **Practice Work:**  
-  - [ ] To be added  
-
-### Session 3 – Topic Name
-- **Date:** TBD  
-- **Topics Covered:**  
-  - [ ] To be updated  
-- **My Learnings:**  
-  - [ ] To be updated  
-- **Practice Work:**  
-  - [ ] To be added  
-
+### Practice Work: 
+  * Built workflows using OpenAI SDK.
+  * Implemented Evaluator–Optimizer patterns.
+  * Integrated personalized chatbot using Gradio.
+  * Complete all four lab exercises.
+  * Design a personalized LLM use case with one tool and one resource.
+  * Demonstrate a real-world implementation using the personalized model.
