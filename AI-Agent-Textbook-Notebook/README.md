@@ -36,6 +36,7 @@ The goal is to help students, educators, and researchers quickly generate high-q
 │   └── sample.pdf                                    # Example input textbook
 ├── 📂 outputs/
 │   └── notes.pdf                                   # Generated notebook notes
+|── .env                                             # To add API keys
 └── requirements.txt                                 # Dependencies
 ```
 
@@ -81,6 +82,17 @@ ollama pull llama3:8b
 ollama serve
 ```
 
+## 🧪 Evaluation (Optional)
+
+You can enable automatic note evaluation using:
+- **ChatGPT API** (recommended)
+- or any other free API (Gemini, etc.)
+- Add your api keys in the .env file 
+
+To disable evaluation, simply comment out the evaluation code block in the notebook.
+
+---
+
 ### 4. Run the Notebook
 Open `Textbook_to_Notebook_Notes_Generator.ipynb` in Jupyter and run all cells.
 
@@ -102,17 +114,6 @@ The app launches an interactive web interface:
 ```
 ![alt text](image.png)
 
----
-
-## 🧪 Evaluation (Optional)
-
-You can enable automatic note evaluation using:
-- **ChatGPT API** (recommended)
-- or any other free API (Gemini, etc.)
-
-To disable evaluation, simply comment out the evaluation code block in the notebook.
-
----
 
 ## 📦 Output Format (JSON)
 
