@@ -49,8 +49,12 @@ The goal is to help students, educators, and researchers quickly generate high-q
 3. **Summarization:** Each chapter is summarized using the **LLaMA 3:8B** model  
 4. **Formatting:** Notes are structured into sections — Overview, Key Terms, and Summary  
 5. **Evaluation (Optional):** Notes are refined using a ChatGPT-based evaluator  
-6. **Output:** The user receives downloadable JSON notes or can view them directly in Gradio  
+6. **Output:** The user receives downloadable JSON notes or can view them directly in Gradio
 
+```
+User → Gradio UI → Text Extractor (PyMuPDF / docx) → Chapter Splitter → LLaMA Summarizer → Evaluation Layer using ChatGPT/Gemini → JSON Formatter → Output Notes
+
+```
 
 ## 🚀 Setup & Installation
 
@@ -148,13 +152,13 @@ The app launches an interactive web interface:
 
 ---
 ## Demo
-[Video Recording](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20Video%20Recording.mp4) 
-[PPT](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20PPT.pdf) 
+- [Video Recording](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20Video%20Recording.mp4) 
+- [PPT](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20PPT.pdf) 
 
 ## 🧑‍💻 Author
 
-**Upendra K.**  
-📧 your.email@example.com  
-💼 [GitHub Profile](https://github.com/your-username)
+**Upendra K**  
+📧 kollaupendra793@example.com  
+💼 [GitHub Profile](https://github.com/K-upendra-7)
 
 
