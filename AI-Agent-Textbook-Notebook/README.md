@@ -147,6 +147,9 @@ The app launches an interactive web interface:
 | Data Parsing | Regex, Pydantic, JSON |
 
 ---
+## Demo
+[Video Recording](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20Video%20Recording.mp4) 
+[PPT](https://github.com/K-upendra-7/abcd-agentic-training-vnr-upendra/blob/main/AI-Agent-Textbook-Notebook/AI-Agent-Textbook-Notebook%20PPT.pdf) 
 
 ## 🧑‍💻 Author
 
